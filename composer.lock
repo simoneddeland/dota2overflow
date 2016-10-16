@@ -1,0 +1,351 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e5705814b67dedd3cb0daef4144c9e82",
+    "content-hash": "e87fa2d29fe54af02a61c704115e49b8",
+    "packages": [
+        {
+            "name": "ezyang/htmlpurifier",
+            "version": "v4.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezyang/htmlpurifier.git",
+                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
+                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
+                "files": [
+                    "library/HTMLPurifier.composer.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Edward Z. Yang",
+                    "email": "admin@htmlpurifier.org",
+                    "homepage": "http://ezyang.com"
+                }
+            ],
+            "description": "Standards compliant HTML filter written in PHP",
+            "homepage": "http://htmlpurifier.org/",
+            "keywords": [
+                "html"
+            ],
+            "time": "2016-07-16 12:58:58"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "155287e4222d2dd69b6a21221617b50668d5892e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/155287e4222d2dd69b6a21221617b50668d5892e",
+                "reference": "155287e4222d2dd69b6a21221617b50668d5892e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2015-12-22 18:18:12"
+        },
+        {
+            "name": "mos/cdatabase",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mosbth/cdatabase.git",
+                "reference": "0504c0ccad80783674a36bd701d884d6bbadbd55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mosbth/cdatabase/zipball/0504c0ccad80783674a36bd701d884d6bbadbd55",
+                "reference": "0504c0ccad80783674a36bd701d884d6bbadbd55",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "me@mikaelroos.se",
+                    "homepage": "http://mikaelroos.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP classes for database handling upon PDO",
+            "homepage": "http://dbwebb.se",
+            "keywords": [
+                "education",
+                "framework",
+                "micro",
+                "module",
+                "mvc"
+            ],
+            "time": "2016-02-03 15:52:43"
+        },
+        {
+            "name": "mos/cform",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mosbth/cform.git",
+                "reference": "0427e0011b97a2ab10c4c7a1cb0a2dbdfa83e727"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mosbth/cform/zipball/0427e0011b97a2ab10c4c7a1cb0a2dbdfa83e727",
+                "reference": "0427e0011b97a2ab10c4c7a1cb0a2dbdfa83e727",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "me@mikaelroos.se",
+                    "homepage": "http://mikaelroos.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Classes for HTML Forms",
+            "homepage": "http://dbwebb.se/",
+            "keywords": [
+                "Forms",
+                "education",
+                "html"
+            ],
+            "time": "2016-01-15 11:53:19"
+        },
+        {
+            "name": "mos/ctextfilter",
+            "version": "v1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mosbth/ctextfilter.git",
+                "reference": "7f5c8090afba61b650ecf87cc2aac1566028c7d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mosbth/ctextfilter/zipball/7f5c8090afba61b650ecf87cc2aac1566028c7d7",
+                "reference": "7f5c8090afba61b650ecf87cc2aac1566028c7d7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ezyang/htmlpurifier": "4.*",
+                "michelf/php-markdown": "1.5.*",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "ext-yaml": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mos\\TextFilter\\": "src/TextFilter"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se",
+                    "homepage": "http://mikaelroos.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP classes for text filtering and formatting to HTML",
+            "homepage": "http://dbwebb.se",
+            "keywords": [
+                "Html Purifier",
+                "YAML front matter",
+                "bbcode",
+                "education",
+                "json front matter",
+                "markdown",
+                "shortcode"
+            ],
+            "time": "2016-02-16 19:17:01"
+        },
+        {
+            "name": "phpmvc/comment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mosbth/phpmvc-comment.git",
+                "reference": "ea5c43e8bb3f723d6fb69c892500d26c7390eb37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mosbth/phpmvc-comment/zipball/ea5c43e8bb3f723d6fb69c892500d26c7390eb37",
+                "reference": "ea5c43e8bb3f723d6fb69c892500d26c7390eb37",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phpmvc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "me@mikaelroos.se",
+                    "homepage": "http://mikaelroos.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Various base classes for comments management",
+            "homepage": "http://dbwebb.se",
+            "keywords": [
+                "comments",
+                "education"
+            ],
+            "time": "2014-04-02 12:59:02"
+        },
+        {
+            "name": "ultimadark/logger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simoneddeland/logger.git",
+                "reference": "23982862a709bbc6a6d01f3da94e234353a7d5b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simoneddeland/logger/zipball/23982862a709bbc6a6d01f3da94e234353a7d5b5",
+                "reference": "23982862a709bbc6a6d01f3da94e234353a7d5b5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ultimadark\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Eddeland",
+                    "homepage": "http://eddeland.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A class for logging timed durations when loading a page",
+            "homepage": "http://eddeland.com",
+            "keywords": [
+                "log",
+                "logger",
+                "logging"
+            ],
+            "time": "2016-09-03 20:56:04"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mos/cform": 20,
+        "phpmvc/comment": 20,
+        "mos/cdatabase": 20,
+        "ultimadark/logger": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4"
+    },
+    "platform-dev": []
+}

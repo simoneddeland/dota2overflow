@@ -1,0 +1,1 @@
+*Texten på denna sida är skriven av Simon Eddeland. Allt innehåll är en del av kursen phpmvc på Blekinge Tekniska Högskola.*

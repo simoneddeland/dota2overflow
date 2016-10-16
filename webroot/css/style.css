@@ -1,0 +1,109 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Sriracha&subset=latin-ext';
+
+body {
+  color: #333;
+  font-family: 'Open Sans', arial, sans-serif;
+  overflow-y: scroll;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Sriracha;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+  font-family: Sriracha;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 75px;
+  left: 130px;
+  font-style: italic;
+  font-family: 'Open Sans';
+  color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+}
+
+a {
+  color: #722;
+}
